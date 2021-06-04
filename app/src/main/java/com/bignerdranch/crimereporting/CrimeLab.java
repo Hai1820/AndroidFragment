@@ -43,6 +43,8 @@ public class CrimeLab {
                 return crime;
         }
         return null;
-
+    }
+    public void addCrime(Crime c) {
+        mCrimes.add(c);
     }
 }
